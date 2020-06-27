@@ -1,14 +1,99 @@
+
 <!DOCTYPE html>
-<html>
 
+<html lang="ko">
 <head>
-    <meta Charset="UTF-8">
-    <title>WELCOME</title>
+    <meta charset="utf-8">
+    <title>레이아웃</title>
+    	<style>
+		div {
+			border: 1px solid #ccc; 
+		}
+
+
+        #top_menu li {
+            display:flex;
+        }
+
+        #main_menu {  /* menu 1 234 */
+            font-size: 20px;
+            color:white;
+			background-color:rgba(0, 0, 0, 0.644);
+            margin-top: 0px;
+            padding: 25px;           
+            text-align: center;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            
+        }
+
+        #main_menu li {
+            padding: 0 20px 0 20px;
+            display:flex;
+            
+        }
+
+		#contents {
+			width: 960px;  
+			padding: 20px;  
+			margin-bottom: 20px;  
+            box-sizing:border-box;
+            
+		}
+
+		#sidebar {
+			width: 150px;  
+			padding: 10px;  
+			margin-bottom: 20px;  
+			background:rgba(0, 0, 0, 0.644);
+            margin-right: 20px;
+			float:right;
+			color:white;
+		}
+
+	</style>
 </head>
-
 <body>
-        <h3>반갑습니다.</h3>
-        <p>저는 홍길동 입니다.</p>
-</body>
+			<ul id="main_menu">
+				<li>정건희 의 운동(헬스) 홈페이지</li>
+			</ul>
+		<aside id="sidebar">
+            <ul>
+				<li>소개</li>
+				<li>근성장방법</li>
 
+            </ul>
+		</aside>
+		<main id="contents">
+			<h2>| 소개</h2>
+			<p>이 홈페이지는 20203733 학번 정건희 학생의 취미인 운동(헬스)을 소개하는 홈페이지 입니다.
+				그래서 헬스에 대한 정보 보다는 저와 관련된 헬스 정보를 소개하려고 합니다.
+				<br><br>
+				<img src="https://postfiles.pstatic.net/MjAyMDA2MjdfMjI3/MDAxNTkzMjQzMTA0ODI0.azKTL8EXfHzojip1n4CzjheTNMNRKSI46D4N_jrFBxMg.xtrnOqfjndWHGnt5OF0WbeKFb45AHXpB7D6-lrqrwMwg.GIF.wjdrjsgml7/1593243102940.gif?type=w966"
+				Style ="width:150px; height:250px;">
+			</p>
+			<h2>| 근성장 방법 & 원리</h2>
+			<p>일단 근육이 생기는 이유에 대해 설명하도록 하겠다.우리가 운동을 함으로써 1차적으로 근육을 찢어지게 만들어
+				찢어진 근육사이로 새로운 근육으로 회복이 되면서 근육이 성장되는 초과회복의 원리이다.
+				마냥 고강도 운동을 매일 같이 한다고 해서 우리의몸이 좋아지는것이 아니다. 그렇기 때문에
+				분할법이 있는것이고 휴식이 있는것이다.
+			</p>
+			<img src="https://postfiles.pstatic.net/MjAyMDA2MjdfMjA2/MDAxNTkzMjQyNzI0OTMx.ONK5SD-Em-pgWx1DMyCLSu5eD5iU2zGpFZjvIXJ45rcg.6bVhUGEn1lI1Scx9Hxoc2NWO_OIPnuDuaNa5b2IP2N0g.JPEG.wjdrjsgml7/unnamed.jpg?type=w966"
+			><br>
+			<p>위 사진은 근성장 그래프 이다. 간단히 소개를 하자면 근성장 의 목적으로 주로 세가지로 나뉘는데
+				스트렝스 / 근비대 / 지구력 으로 나뉜다. 스트렝스는 말그대로 힘 을 목적으로 하는 운동 근비대는
+				근육의 크기 지구력은 체력을 뜻한다.
+				운동방법에 따라 성장하는 근육의 종류도 여러가지 인데 모든 운동은 본인이 수행가능한 최대 무게를
+				기준으로 1 ~ 3회 시 스트렝스 6 ~ 15회 는 근비대 20 ~ MAX 까지가 지구력 이런식으로 보통 강도를 나눈다.
+				주로 파워 리프터 들은 스트렝스 , 보디빌더는 근비대 , 육상 선수 및 격투기 선수들은 지구력 운동을 많이 한다.
+			</p>
+			<p>그렇기 때문에 우리가 운동을 하기위해서는 마냥 하는것이 아닌 정확한 목표 와 계획을 바탕으로 운동해야 효율적으로 운동 성과를
+				얻을수 있다.
+			</p>
+			<br>
+			<a href="">다음 페이지로 이동</a>
+		</main>
+    </div>
+</body>
 </html>
